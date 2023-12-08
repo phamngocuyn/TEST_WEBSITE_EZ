@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { IntroduceComponent } from './introduce/introduce.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionComponent } from './mission/mission.component';
+import { CorevalueComponent } from './corevalue/corevalue.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { MissionComponent } from './mission/mission.component';
     HomeComponent,
     IntroduceComponent,
     FooterComponent,
-    MissionComponent
+    MissionComponent,
+    CorevalueComponent
   ],
   imports: [
     BrowserModule,
