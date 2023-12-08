@@ -1,5 +1,5 @@
 .header-blue {
-    background-image: url(/assets/img/home-img/banner.jpg);
+    background: linear-gradient(259.77deg, #1D214E 7.08%, #04D7A2 94.45%, rgba(255, 255, 255, 0) 116.45%);
     padding-bottom:80px;
     height: 772px;
     font-size: 16px;
@@ -156,11 +156,11 @@
   }
   
   .header-blue .hero h1 {
-    color:#fff;
-    font-size:40px;
+    color:rgba(30, 33, 78, 1);
+    font-size:24px;
     margin-top:0;
     margin-bottom:15px;
-    font-weight:300;
+    font-weight:900;
     line-height:1.4;
   }
   
@@ -173,137 +173,65 @@
   }
   
   .header-blue .hero p {
-    color:rgba(255,255,255,0.8);
-    font-size:20px;
+    color:rgba(51, 48, 47, 1);
+    font-size:16px;
     margin-bottom:30px;
-    font-weight:300;
+    font-weight:400;
+    line-height: 30px;
   }
   
-   .icon-box{
-    background-color: #fff;
-    height: 300px;
-    border-radius: 12px;
-   }
+  .describe img{
+    width: 257px;
+    height: 179px;
+}
 
-   /* .overlay {
-    position: absolute;
-    top: -200px;
-    left: 0;
-    z-index: 1;
-    } */
+.describe h2{
+    font-weight: 900;
+    font-size: 28px;
+    color: rgba(30, 33, 78, 1);
+}
 
-  
-    .administration{
-        margin-top: 200px;
-        background-color: #E6E6E6CC;
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
+.describe .left h3{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 28px;
+}
 
-    .administration h2{
-        font-size: 32px;
-        font-weight: 900;
-        color: #DB2B1E;
-    }
+.describe .left h3{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+}
 
-    .administration p{
-        font-size: 16px;
-        font-weight: 400;
-    }
+.describe .right h3{
+    font-family: lato;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 36px;
+    color: #04D7A2;
+}
 
-    .administration p:hover{
-        color: #DB2B1E;
-    }
+.row-1 p{
+  font-family: lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
 
-    .administration p img{
-        width: 36px;
-        height: 36px;
-        margin-right: 15px;
-    }
+.row-2 p{
+  font-family: lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
 
-    .fields h3{
-        font-size: 24px;
-        font-weight: 900;
-        color: #DB2B1E;
-        line-height: 27px;
-    }
+.row-3 .box{
+  border: 1px rgba(4, 215, 162, 1) solid;
+}
 
-    .fields .col-3{
-        background-color: #DB2B1E;
-    }
-
-    .fields .card-body{
-        width: 277px;
-        height: 277px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .fields button{
-        border: none;
-        background-color: #1D214E;
-        color: #fff;
-        font-size: 16px;
-        width: 158px;
-        height: 45px;
-        border-radius: 3px;
-    }
-
-    .mission{
-        background-color: #E6E6E6CC;
-        padding-top: 30px;
-        padding-bottom: 60px;
-    }
-
-    .mission h3{
-        color: #DB2B1E;
-        font-size: 24px;
-        font-weight: 900;
-        line-height: 27px;
-    }
-    .mission p{
-        color: #33302F;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
-    }
-
-    .mission button{
-        background-color: #DB2B1E;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 400;
-        width: 158px;
-        height: 45px;
-        border: none;
-        border-radius: 3px;
-    }
-
-    .describe img{
-        width: 257px;
-        height: 179px;
-    }
-
-    .describe .left h6{
-        font-family: inter;
-        font-weight: 600;
-        font-size: 28px;
-    }
-
-    .describe .left h6{
-        font-family: inter;
-        font-weight: 500;
-        font-size: 20px;
-    }
-
-    .describe .right h6{
-        font-family: lato;
-        font-weight: 800;
-        font-size: 50px;
-        line-height: 36px;
-        color: #04D7A2;
-    }
-
-
-
+.row-3 p{
+  font-family: lato;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+}
