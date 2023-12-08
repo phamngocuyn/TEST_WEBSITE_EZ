@@ -8,6 +8,7 @@ import { IntroduceComponent } from './introduce/introduce.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionComponent } from './mission/mission.component';
 import { CorevalueComponent } from './corevalue/corevalue.component';
+import { TeamsComponent } from './teams/teams.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CorevalueComponent } from './corevalue/corevalue.component';
     IntroduceComponent,
     FooterComponent,
     MissionComponent,
-    CorevalueComponent
+    CorevalueComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule,
