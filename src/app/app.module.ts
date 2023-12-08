@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { IntroduceComponent } from './introduce/introduce.component';
 import { FooterComponent } from './footer/footer.component';
+import { MissionComponent } from './mission/mission.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HomeComponent,
     IntroduceComponent,
-    FooterComponent
+    FooterComponent,
+    MissionComponent
   ],
   imports: [
     BrowserModule,
