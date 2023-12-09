@@ -10,6 +10,7 @@ import { MissionComponent } from './mission/mission.component';
 import { CorevalueComponent } from './corevalue/corevalue.component';
 import { TeamsComponent } from './teams/teams.component';
 import { FieldsComponent } from './fields/fields.component';
+import { RulesComponent } from './rules/rules.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FieldsComponent } from './fields/fields.component';
     MissionComponent,
     CorevalueComponent,
     TeamsComponent,
-    FieldsComponent
+    FieldsComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,
