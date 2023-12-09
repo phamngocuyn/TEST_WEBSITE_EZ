@@ -7,6 +7,7 @@ import { CorevalueComponent } from './corevalue/corevalue.component';
 import { TeamsComponent } from './teams/teams.component';
 import { FieldsComponent } from './fields/fields.component';
 import { RulesComponent } from './rules/rules.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'corevalue', component: CorevalueComponent},
   {path: 'teams', component: TeamsComponent},
   {path: 'fields', component: FieldsComponent},
-  {path: 'rules', component: RulesComponent}
+  {path: 'rules', component: RulesComponent},
+  {path: 'contact', component: ContactComponent},
 ];
 
 @NgModule({

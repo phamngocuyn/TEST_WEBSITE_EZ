@@ -11,6 +11,7 @@ import { CorevalueComponent } from './corevalue/corevalue.component';
 import { TeamsComponent } from './teams/teams.component';
 import { FieldsComponent } from './fields/fields.component';
 import { RulesComponent } from './rules/rules.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RulesComponent } from './rules/rules.component';
     CorevalueComponent,
     TeamsComponent,
     FieldsComponent,
-    RulesComponent
+    RulesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
